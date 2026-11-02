@@ -94,6 +94,6 @@ Tất cả các tài liệu đặc tả liên kết bằng đường dẫn tươ
 
 Khi AI Dev Agent thực hiện viết mã dự án này, bắt buộc tuân thủ:
 1. **Ngôn ngữ:** Python 3.10+ (Không sử dụng thư viện bên ngoài để thực hiện lệnh Git như GitPython, thay vào đó chạy trực tiếp subprocess của Git CLI hệ thống).
-2. **Chia sẻ Thư viện:** Thừa kế hoặc mở rộng mã nguồn lớp `GitEngine` từ dự án [git_engine.py](../skills_sync/src/git_engine.py) trong `skills_sync` để tái sử dụng tối đa logic phân tích trạng thái.
+2. **Chia sẻ Thư viện:** Thừa kế hoặc mở rộng mã nguồn lớp `GitEngine` từ dự án [git_engine.py](../../zcli_skillssync/src/git_engine.py) trong `zcli_skillssync` để tái sử dụng tối đa logic phân tích trạng thái.
 3. **Bất đồng bộ:** Sử dụng `asyncio` để khởi tạo các luồng chạy subprocess song song khi fetch dữ liệu của nhiều repo cùng lúc.
 4. **Mã lỗi & Trả về:** Trả về rõ ràng các exception và ghi nhận log chi tiết thời gian chạy quét.

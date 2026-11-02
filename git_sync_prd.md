@@ -23,7 +23,7 @@
 
 ### 3. Key Resources & References (Liên kết tài nguyên)
 *   **Workspace Link:** [git_sync_prd.md](git_sync_prd.md)
-*   **Tham chiếu logic:** [git_engine.py](../skills_sync/src/git_engine.py)
+*   **Tham chiếu logic:** [git_engine.py](../zcli_skillssync/src/git_engine.py)
 
 ---
 
